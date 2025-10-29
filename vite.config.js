@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     port: process.env.PORT || 5173,
     host: true,
-    allowedHosts: ['chatbot-cno0.onrender.com'] // ✅ Add this line
+    allowedHosts: ['.onrender.com', 'localhost'] // ✅ works for all Render URLs
   }
 })
